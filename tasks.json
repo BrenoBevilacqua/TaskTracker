@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "status": "todo",
+        "createdAt": "Tuesday 10th of June 2025 04:10:34 PM",
+        "updatedAt": "Tuesday 10th of June 2025 08:22:47 PM",
+        "description": "Wassup nigga"
+    },
+    {
+        "id": 2,
+        "status": "done",
+        "createdAt": "Tuesday 10th of June 2025 08:17:48 PM",
+        "updatedAt": "Tuesday 10th of June 2025 08:18:07 PM",
+        "description": "Hey man"
+    },
+    {
+        "id": 3,
+        "status": "in-progress",
+        "createdAt": "Tuesday 10th of June 2025 08:18:13 PM",
+        "updatedAt": "Tuesday 10th of June 2025 08:18:23 PM",
+        "description": "Heyyy"
+    }
+]
