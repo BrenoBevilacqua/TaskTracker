@@ -16,7 +16,7 @@ input.
      
    * php task-cli.php mark-todo 1 -> Will change the status of a task to "todo" through it's ID;
      
-   * php task-cli.php mark-in-progress 1 -> Will change the status of a task to "in-progress" through it's ID;
+   * php task-cli.php mark-in-progress 1 -> Will change the status of a task to "in-progress" through it's ID
      
    * php task-cli.php list -> Will list all the tasks stored in the JSON file;
      
