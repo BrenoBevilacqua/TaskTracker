@@ -4,7 +4,7 @@ The project has a folder called "Controllers" containing the function's files, t
 Task class and it's constructor is declared and also where the 'if' and 'elseif' statements decide what function to call depending on the user
 input.
 
-* Commands *
+* Commands 
    * php task-cli.php add "text" -> Will create a new task in the json file with "text" as it's description;
      
    * php task-cli.php update 1 "other text" -> Will update a task's description through the given ID (in this case, 1). The third argument in
