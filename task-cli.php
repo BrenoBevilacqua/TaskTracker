@@ -4,18 +4,17 @@
     include "Controller/delete.php";
     include "Controller/status.php";
     include "Controller/listing.php";
-
+    
 
 class Task{
     public $id;
     public $status = "todo";
     public $createdAt;
-    public $updatedAt;
+    public $updatedAt = "Not updated yet!";
     public function __construct(string $description, int $id){
         $this->id = $id;
         $this->description = $description;
         $this->createdAt = date('l jS \of F Y h:i:s A');
-        $this->updatedAt = date('l jS \of F Y h:i:s A');
     }
 }
 

@@ -1,8 +1,18 @@
 <?php
-    
+$jsonFile = './tasks.json';
+
+
  function add($command2){
     if ($command2 === '') {
         echo "ID missing!";
+        exit(1);
+    }
+
+    if(!file_exists('tasks.json')){
+        $task = new Task($command2, 1);
+        $tasks[] = $task;
+        file_put_contents('tasks.json', json_encode($tasks, JSON_PRETTY_PRINT));
+        echo "Inserted successfully!";
         exit(1);
     }
 
