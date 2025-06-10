@@ -1,5 +1,4 @@
 <?php
-$jsonFile = './tasks.json';
 
 
  function add($command2){
