@@ -25,3 +25,6 @@ input.
    * php task-cli.php list todo -> Will list all the tasks with status "todo" stored in the JSON file;
      
    * php task-cli.php list in-progress -> Will list all the tasks with status "in-progress" stored in the JSON file;
+  
+* Installation
+   git clone https://github.com/BrenoBevilacqua/TaskTracker.git
