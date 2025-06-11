@@ -1,4 +1,4 @@
-This project was made for learning purposes. It's main idea is the manipulation of a JSON array of objects through a command line interface.
+This project is a solution of the challenge 'TaskTrack', taken from 'https://roadmap.sh/projects/task-tracker'. It's main idea is the manipulation of a JSON array of objects through a command-line interface.
 OOP principles and PHP's built in JSON manipulation functions were the key features for the creation of this project.
 The project has a folder called "Controllers" containing the function's files, they are all used in the "task-cli" file, which is where the 
 Task class and it's constructor is declared and also where the 'if' and 'elseif' statements decide what function to call depending on the user
